@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    float: none;
+	position: static;
+}
+.iphonever{
+    display: none;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+
+}
+header{
+    background-color: black;
+    height: 70px;
+    
+}
+.container{
+    width: 1440px;
+    
+}
+.header-left img{
+    width: 120px;
+    float: left;
+}
+.header-left h3{
+    color: azure;
+    padding-top: 21px;
+    float: left;
+}
+
+
+.swich-wrapper{
+    background-color: grey;
+    height: 70px;
+    text-align: center;
+}
+.swich-wrapper a{
+    padding: 0 75px;
+    background-color: white;
+    line-height: 70px;
+    display: inline-block;
+    color: black;
+    opacity: 0.6;
+    font-size: 20px;
+    transition: 0.3s;
+    font-family: "Arial Black";   
+}
+
+.swich-wrapper a:hover{
+    opacity: 1;
+}
+.news-wrapper{
+    background-image: url(/img/back_ground.jpg);
+    background-size: contain;
+    height: 100%;
+    border-top: 20px solid black;
+}
+
+.news-text{
+    background-color:rgba(0, 0, 0, 0.814);
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+}
+.news-text h1{
+    color: azure;
+    padding-top: 50px;
+    font-size: 20px;
+    font-family: "azuki_font";
+}
+.news-text h1 span{
+    font-size: 40px;
+    margin-left: 30px;
+}
+.news-text p{
+    color: white;
+    font-size: 20px;
+    padding-top: 50px;
+    line-height: 35px;
+}
+.news-text h2{
+    color: white;
+    margin-top: 15px;
+}
+.news-img{
+    background-color:rgba(0, 0, 0, 0.814);
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ul{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    list-style: none;
+}
+ul p{
+    color: white;
+    font-size: 20px;
+}
+li{
+    text-align: center;
+    margin: auto;
+}
+.allow{
+    margin-left: 30px;
+    margin-right: 10px;
+}
+.after {
+    margin-top: 30px;
+}
+.after p{
+    margin-top: 15px;
+} 
+
+
+footer{
+    width: 1440px;
+    height: 80px;
+}
+
+.fotter-logo p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+}
