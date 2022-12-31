@@ -54,7 +54,7 @@ header{
     opacity: 1;
 }
 .news-wrapper{
-    background-image: url(/img/back_ground.jpg);
+    background-image: url(https://github.com/yuuki106/20221212azuki_kenkousindan/blob/main/back_ground.jpg?raw=true);
     background-size: contain;
     height: 100%;
     border-top: 20px solid black;
